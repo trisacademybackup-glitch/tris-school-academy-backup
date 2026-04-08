@@ -14,10 +14,11 @@ app.use(
   cors({
     origin: [
       process.env.FRONTEND_URL,
-      "http://school.trismotorcycles.com",
-      "https://school.trismotorcycles.com",
       "http://academy.trismotorcycles.com",
       "https://academy.trismotorcycles.com",
+      "https://www.academy.trismotorcycles.com",
+      "http://school.trismotorcycles.com",
+      "https://school.trismotorcycles.com",
       "https://trisschool.threedolts.com",
       "http://localhost:8080",
     ],
