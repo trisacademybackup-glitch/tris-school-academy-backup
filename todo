@@ -1,0 +1,7 @@
+The above is my client zip and sever zip of my project, unzip it to see the files
+=> In admin students page i want to show how many classes student have, and also i want also to sort according to student classes, e.g 7 classes, 7 and above classes.
+=> I also want you to confirm form me once students 30 day booking period has ended student cannot book any class without admin refreshing his period
+=>I have inserted image for you that example of certificate of completion that students will download after completing the classes, that is 7 or 7 classes and above. they will download certificate as pdf with their name autofilled
+=> also in admin, users page admin can sort students and download their completion certificated for all sorted students
+
+Now write me the complete updated files that are affected by these changes

@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 97%;
+    --foreground: 220 25% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 25% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 25% 10%;
+
+    --primary: 170 77% 21%;
+    --primary-foreground: 45 100% 96%;
+
+    --secondary: 220 15% 92%;
+    --secondary-foreground: 220 25% 10%;
+
+    --muted: 220 15% 94%;
+    --muted-foreground: 220 10% 46%;
+
+    --accent: 170 77% 21%;
+    --accent-foreground: 220 60% 10%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 15% 88%;
+    --input: 220 15% 88%;
+    --ring: 220 60% 20%;
+
+    --radius: 0.75rem;
+
+    --success: 152 60% 42%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    --sidebar-background: 170 77% 21%;
+    --sidebar-foreground: 220 15% 95%;
+    --sidebar-primary: 170 77% 21%;
+    --sidebar-primary-foreground: 45 100% 96%;
+    --sidebar-accent: 170 77% 21%;
+    --sidebar-accent-foreground: 220 15% 95%;
+    --sidebar-border: 170 77% 21%;
+    --sidebar-ring: 170 77% 21%;
+  }
+
+  .dark {
+    --background: 220 25% 7%;
+    --foreground: 220 15% 92%;
+
+    --card: 220 25% 10%;
+    --card-foreground: 220 15% 92%;
+
+    --popover: 220 25% 10%;
+    --popover-foreground: 220 15% 92%;
+
+    --primary: 40 95% 55%;
+    --primary-foreground: 220 60% 10%;
+
+    --secondary: 220 20% 16%;
+    --secondary-foreground: 220 15% 92%;
+
+    --muted: 220 20% 14%;
+    --muted-foreground: 220 10% 55%;
+
+    --accent: 40 95% 55%;
+    --accent-foreground: 220 60% 10%;
+
+    --destructive: 0 62% 40%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 20% 18%;
+    --input: 220 20% 18%;
+    --ring: 40 95% 55%;
+
+    --success: 152 55% 38%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 88% 48%;
+    --warning-foreground: 0 0% 100%;
+
+    --sidebar-background: 170 77% 21%;
+    --sidebar-foreground: 220 15% 95%;
+    --sidebar-primary: 170 77% 21%;
+    --sidebar-primary-foreground: 45 100% 96%;
+    --sidebar-accent: 170 77% 21%;
+    --sidebar-accent-foreground: 220 15% 95%;
+    --sidebar-border: 170 77% 21%;
+    --sidebar-ring: 170 77% 21%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Inter", sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Space Grotesk", sans-serif;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 97%;
+    --foreground: 220 25% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 25% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 25% 10%;
+
+    --primary: 170 77% 21%;
+    --primary-foreground: 45 100% 96%;
+
+    --secondary: 220 15% 92%;
+    --secondary-foreground: 220 25% 10%;
+
+    --muted: 220 15% 94%;
+    --muted-foreground: 220 10% 46%;
+
+    --accent: 170 77% 21%;
+    --accent-foreground: 220 60% 10%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 15% 88%;
+    --input: 220 15% 88%;
+    --ring: 220 60% 20%;
+
+    --radius: 0.75rem;
+
+    --success: 152 60% 42%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    --sidebar-background: 170 77% 21%;
+    --sidebar-foreground: 220 15% 95%;
+    --sidebar-primary: 170 77% 21%;
+    --sidebar-primary-foreground: 45 100% 96%;
+    --sidebar-accent: 170 77% 21%;
+    --sidebar-accent-foreground: 220 15% 95%;
+    --sidebar-border: 170 77% 21%;
+    --sidebar-ring: 170 77% 21%;
+  }
+
+  .dark {
+    --background: 220 25% 7%;
+    --foreground: 220 15% 92%;
+
+    --card: 220 25% 10%;
+    --card-foreground: 220 15% 92%;
+
+    --popover: 220 25% 10%;
+    --popover-foreground: 220 15% 92%;
+
+    --primary: 40 95% 55%;
+    --primary-foreground: 220 60% 10%;
+
+    --secondary: 220 20% 16%;
+    --secondary-foreground: 220 15% 92%;
+
+    --muted: 220 20% 14%;
+    --muted-foreground: 220 10% 55%;
+
+    --accent: 40 95% 55%;
+    --accent-foreground: 220 60% 10%;
+
+    --destructive: 0 62% 40%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 20% 18%;
+    --input: 220 20% 18%;
+    --ring: 40 95% 55%;
+
+    --success: 152 55% 38%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 88% 48%;
+    --warning-foreground: 0 0% 100%;
+
+    --sidebar-background: 170 77% 21%;
+    --sidebar-foreground: 220 15% 95%;
+    --sidebar-primary: 170 77% 21%;
+    --sidebar-primary-foreground: 45 100% 96%;
+    --sidebar-accent: 170 77% 21%;
+    --sidebar-accent-foreground: 220 15% 95%;
+    --sidebar-border: 170 77% 21%;
+    --sidebar-ring: 170 77% 21%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Inter", sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Space Grotesk", sans-serif;
+  }
+}
+
+/* ── Notification banner: rotating conic-gradient light sweep ── */
+@keyframes notif-spin {
+  from {
+    --notif-angle: 0deg;
+  }
+  to {
+    --notif-angle: 360deg;
+  }
+}
+
+@property --notif-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.notif-glow {
+  position: relative;
+  border-color: transparent !important;
+}
+
+.notif-glow::before {
+  content: "";
+  position: absolute;
+  inset: -1.5px;
+  border-radius: inherit;
+  padding: 1.5px;
+  background: conic-gradient(
+    from var(--notif-angle),
+    transparent 0%,
+    transparent 40%,
+    var(--notif-glow, #888) 50%,
+    transparent 60%,
+    transparent 100%
+  );
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: notif-spin 2.5s linear infinite;
+  pointer-events: none;
+}

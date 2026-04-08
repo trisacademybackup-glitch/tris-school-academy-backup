@@ -1,0 +1,12 @@
+I want to create a driving school management system.
+Roles i will have - admin, managers, administrators and students.
+The main page will be role based login.
+- students will be able to create account using names, email, phone and password. Then login using email and password.
+- students when logged in will be able to book a class session starting from 930 am to 630pm each class being a duration
+  of 1hr each. (have a well defined visualization of available classes)
+-Instructors will see the classes and allocated students - he will also be able to see his schedue
+- managers will have power to book or drop students and allocate the to different Instructors
+- admin as always will have all powers
+- have a section where students can leave feedback for classes and about Instructors.
+- Include other important features that i might have forgotten.
+Now create a modern super responsive management system. 
